@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.introDia .mat-dialog-container {
+  height: 50vh;
+  width: 50vh;
+  border-style: groove;
+  background-size: 100% 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  background-color: black;
+  color: red;
+}
+
+.introDia .mat-dialog-title {
+  padding-top: 10%;
+}
+.introDia .mat-dialog-actions {
+  padding-top: 10%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
